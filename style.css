@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: block;
+    align-items: centoer;
+    justify-content: center;
+    height: 10px;
+}
+
+form {
+    width: 300px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    padding: 10px;
+    outline-color :#EDEFFF;
+    display: block; 
+    accent-color : white; 
+    text-decoration : none;
+    border-radius: 20px; 
+    border : 5px solid cyan;
+  
+}
+
+form button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    display: block;
+}
+body {
+  background-image: url("backgroun(1).avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+h1 {
+  margin-bottom: 10px; 
+  color: white; 
+}
+form input :hover {
+     box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+
+}
